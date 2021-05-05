@@ -20,12 +20,11 @@ pipeline {
                 echo "Tes Aceptacion..."
             }
         }
-    stage {
-        stage('Fase 3 - Deploy'){
-            // Pasos de la fase
-            steps{
-                echo "desplegando artefecto.."
-            }
-        }
-    }
+
+	stage('Fase 3 - Deploy'){
+		// Pasos de la fase
+		steps{
+			echo "desplegando artefecto.."
+		}
+	} 
 }
