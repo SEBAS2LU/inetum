@@ -12,7 +12,7 @@ pipeline {
             }
         }
     }
-    stages ('Fase 2 - Testing'){
+    stage ('Fase 2 - Testing'){
             // Pasos de la fase
             steps{
                 echo "Tes Unitarios.."
